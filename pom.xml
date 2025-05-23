@@ -38,12 +38,18 @@
             <groupId>org.dnttr</groupId>
             <artifactId>zephyr-serializer</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
             <version>24.0.0</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-buffer</artifactId>
+            <version>4.2.1.Final</version>
         </dependency>
     </dependencies>
 </project>
